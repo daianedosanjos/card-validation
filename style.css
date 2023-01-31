@@ -1,0 +1,140 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+	
+}
+
+.header{	
+	width: 90%;
+	height: 15rem;
+	margin: auto;	
+	align-items: center;
+	text-align: center;
+	background-color: #10041c;
+	padding: 2rem;
+		
+}
+
+.header-name-title{
+	
+	font-family: 'Satisfy', cursive;
+	margin-bottom: -40px;
+	font-size: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: beige;
+	
+}
+
+
+.header-name-subtitle{	
+	font-size: 2rem;
+	color: beige;
+	margin-left: 2rem;
+	margin-top: -2rem;
+}
+
+.container {
+	font-family: 'Saira Condensed', sans-serif;
+	width: 90%;
+	margin: auto;
+	display: flex;	
+	align-items: center;
+	text-align: center;
+	line-height: 25px;
+	background-color: #10041c;
+	color: beige;	
+	flex-direction: column;
+	
+}
+
+.container h2{
+	font-size: 1.3rem;
+	margin-bottom: 3rem;
+}
+
+.section-1{
+	width: 700px;
+	background-color: #272c44;
+	margin-bottom: 1rem;
+	border-radius: 15px;
+}
+
+.title{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.textResult{
+	color: black;
+	background-color:darkgray;	
+	padding: 0.4rem;
+	border-radius: 5px;
+	height: 4rem;
+	font-size: 1.5rem;
+	color: black;	
+}
+
+
+.submit-btn{
+	width: 7rem;
+	height: 3rem;
+	border-radius: 7px;
+	font-size: 1.2rem;
+	cursor: pointer;
+	margin-top: 1rem;
+	background-color: aquamarine;
+}
+
+#cardNumber{
+	width: 14rem;
+	height: 3rem;
+	border-radius: 7px;
+	font-size: 1.5rem;
+	padding: 11px;
+}
+
+
+.label{
+	margin-top: -2rem;
+	
+}
+
+.clone{
+	width: 14rem;
+	font-size: 1.6rem;
+	color: black;
+	margin-bottom: 2rem;
+}
+
+.form{
+	margin-top: 2rem;
+}
+
+.tarjeta {
+	width: 20rem;
+	color: beige;
+	background-color: #272c44;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+	padding: 1rem;
+	border-radius: 15px;
+
+	
+}
+
+.footer{
+	width: 90%;
+	height: 5rem;
+	margin: auto;	
+	align-items: center;
+	text-align: center;
+	background-color: #10041c;
+	padding: 2rem;
+	color: beige;
+}
+
+
