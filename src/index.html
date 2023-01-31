@@ -1,14 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="./index.js" type="module"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,500;1,300&family=Satisfy&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&display=swap" rel="stylesheet">
+  <title>card-validation</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-name">
+      <div class="header-name-title">
+        <h1>Validator</h1>
+      </div>
+      <div class="header-name-subtitle">
+        <h3>Cartão de crédito</h3>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <h2>Validador Cartão de Crédito é uma ferramenta online gratuita que permite validar o número do cartão de
+      crédito, como a validação Luhn. </h2>
+    
+    <section class="section-1">
+      <h3>O que é o algoritmo de Luhn??</h3>
+      <p>O Algoritmo de Luhn – também conhecido como “Algoritmo do Módulo 10” – é uma fórmula usada para determinar se o
+        número de identificação fornecido por um usuário é preciso. A fórmula é amplamente usada na validação de números
+        de cartão de crédito, bem como outras sequências de números, como Números de Previdência Social (SSNs) do
+        governo.
+        Hoje, o Algoritmo de Luhn é um componente essencial no sistema de pagamentos eletrônicos e é usado por todos os
+        principais cartões de crédito.</p>
+    </section>
+    <section class="section-1">
+      <h3>Porque usar o validador de cartão de crédito</h3>
+      <p>O uso primário de validação do cartão de crédito é para permitir que os comerciantes identifiquem números de
+        cartões de crédito falsos antes de solicitar uma autorização da empresa do cartão. Comerciantes que suspeitarem
+        de um caso de fraude podem identificar informações de pagamento fraudulento mais rapidamente e evitar as perdas
+        de tempo e dinheiro associados, começando a processar um pedido que não tem chance de ser concluído.</p>
+    </section>
+    <section class="form">
+      <h3>INSIRA O NÚMERO DO CARTÃO DE CRÉDITO E CLIQUE NO BOTÃO PARA VALIDARr</h3>
+      <form>
+        <input type="text" id="cardNumber" name="cardNumber" maxlength="16" pattern="[0-9]+" autocomplete="off"
+          onkeypress="return event.charCode >= 48 && event.charCode <= 57" required />
+        <button type="submit" id="btn-validate" class="submit-btn">VALIDAR</button>
+      </form>
+    </section>
+    <section class="tarjeta">
+      <h2> RESULTADO DA VALIDAÇÃO</h2>
+      <h5>NÚMERO DO CARTÃO:</h5>
+          <div>
+            <input id="numberClone" class="clone" disabled />
+          </div>
+          <h5>VALIDAÇÃO DE LUHN:</h5>
+          <p class="textResult" id="result"></p>
+    </section>
+  </main>
+  <section class="footer">
+    <footer>
+      <p class="paragrafo-footer">
+        Direitos de Autor. © 2023. Feito com ♡ por Daiane dos Anjos.
+      </p>
+    </footer>
+  </section>
+</body>
 </html>
