@@ -1,4 +1,5 @@
 # `Cartão de Crédito Válido`
+Veja aqui o projeto [Validator cartão de crédito](https://daianedosanjos.github.io/card-validation/src)
 
 
 ## 1. `Introdução`
@@ -48,4 +49,4 @@ Siga os passos e inclua as informações abaixo:
 | Instale as dependências após acessar a pasta projeto    | `npm i`            |
 | Rode o projeto              | `npm start`       |
 
-Veja aqui o projeto [Validator cartão de crédito](https://daianedosanjos.github.io/card-validation/src)
+
